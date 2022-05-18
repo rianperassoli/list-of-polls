@@ -5,7 +5,7 @@
 	import Tabs from "./shared/Tabs.svelte";
 
 	let tabs = ["Current Polls", "Add New Poll"];
-	let activeTab = "Current Polls";
+	let activeTab = "Add New Poll";
 
 	const handleTabChange = (event) => {
 		activeTab = event.detail;
